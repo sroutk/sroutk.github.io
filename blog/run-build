@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# One time run in the begining:
-#bundle install
-#bundle update
-bundle exec jekyll build
-
-git commit --allow-empty -m "Update" -a
-git push
